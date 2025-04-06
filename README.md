@@ -2,12 +2,12 @@
 
 # Run instruction:
 bash
-$ cd output
-$ chmod +x *
-$ ./fsdemo_mac_arm   //mac m1 or m2 
-$ ./fsdemo_mac_intel // mac intel
-$ ./fsdemo_linux     // linux 64bit
-$ fsdemo_win.exe     // windows
+*  cd output
+*  chmod +x *
+* ./fsdemo_mac_arm   //mac m1 or m2
+* ./fsdemo_mac_intel // mac intel
+* ./fsdemo_linux     // linux 64bit
+* fsdemo_win.exe     // windows
 
 --------------------------------------------------------------------------
 # project structure
