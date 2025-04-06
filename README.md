@@ -12,7 +12,7 @@ bash
 --------------------------------------------------------------------------
 # project structure
 
-entrypoint : app/main.go#
+entrypoint : app/main.go
 
 interface : 
 internal/filesystem/filesystem.go
@@ -26,15 +26,11 @@ inmemoryfs_test.go
 --------------------------------------------------------------------------
 # Golang app Build instructions
 1. Install go 1.24
-2. Check out code and open the root folder - fsdemo
-3. mac intel
-   a. env GOOS=darwin GOARCH=amd64 go build -o output/fsdemo_mac_intel app/main.go 
-4. mac m1/m2
-   a. env GOOS=darwin GOARCH=arm64 go build -o output/fsdemo_mac_arm app/main.go 
-5. linux
-   a. env GOOS=linux GOARCH=amd64 go build -o output/fsdemo_linux app/main.go 
-6. windows
-   a. env GOOS=windows GOARCH=amd64 go build -o output/fsdemo_win.exe app/main.go 
+2. Check out code and open the root folder - golang-fs-demo
+3. env GOOS=darwin GOARCH=amd64 go build -o output/fsdemo_mac_intel app/main.go 
+4. env GOOS=darwin GOARCH=arm64 go build -o output/fsdemo_mac_arm app/main.go 
+5. env GOOS=linux GOARCH=amd64 go build -o output/fsdemo_linux app/main.go 
+6. env GOOS=windows GOARCH=amd64 go build -o output/fsdemo_win.exe app/main.go 
 
 --------------------------------------------------------------------------
 # Run test files
